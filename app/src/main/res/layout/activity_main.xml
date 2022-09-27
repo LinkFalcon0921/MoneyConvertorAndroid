@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/list_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:text="@string/Background_Title"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/bg_white2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/bg_lightGray"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/light_gray"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/bg_gray"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/gray"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/bg_darkGray"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/dark_gray"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/bg_black"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+</RelativeLayout>
