@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">Tarea_2_Movil</string>
+    <string name="app_name">Money Flips</string>
     <string name="Background_Title">Backgrounds</string>
+    <string name="hundred_Label">$100 pesos: </string>
+    <string name="fifty_Label">$50 pesos: </string>
+    <string name="twenty_Label">$20 pesos: </string>
+    <string name="ten_cents_Label">$10 centavos:</string>
+    <string name="five_cents_Label">$5 centavos : </string>
+    <string name="Hint_add_amount">Ingrese un monto:</string>
+    <string name="info_label_app">Cuantos billetes necesitas segun la cantidad.</string>
+    <string name="info_press" >Suba el volumen para conocer valor.</string>
+    <string name="swipe_info_close">Swipe to close</string>
+    <string name="swipe_info_clear">Swipe to clear</string>
 </resources>
